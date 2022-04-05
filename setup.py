@@ -22,7 +22,7 @@ VERSION = '2.3.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'seqtag-keras',
+    'tensorflow>=2.8.0',
     'pydload',
     'progressbar2'
 ]
