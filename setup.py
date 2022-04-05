@@ -23,7 +23,7 @@ VERSION = '2.3.1'
 # What packages are required for this module to be executed?
 REQUIRED = [
     'tensorflow>=2.8.0',
-    'seqtag_keras @ git+https://git@github.com/HHousen/seqtag-keras#egg=seqtag_keras',
+    'seqtag_keras @ git+https://git@github.com/HHousen/seqtag-keras.git@no_elmo#egg=seqtag_keras',
     'pydload',
     'progressbar2'
 ]
